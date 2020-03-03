@@ -28,7 +28,7 @@ public class WorkoutListFragment extends ListFragment {
 
         ArrayAdapter<String> adapter = new ArrayAdapter<>(inflater.getContext(), android.R.layout.simple_list_item_1, names);
         setListAdapter(adapter);
-      return super.onCreateView(inflater, container, savedInstanceState);
+        return super.onCreateView(inflater, container, savedInstanceState);
     }
 
     @Override
